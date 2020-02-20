@@ -29,4 +29,6 @@ const chainWebpack = (config) => {
 module.exports = {
     configureWebpack,
     chainWebpack,
+    indexPath: '../index.html', // Put the index in the root directory for gh-pages
+    publicPath: 'dist',
 };
