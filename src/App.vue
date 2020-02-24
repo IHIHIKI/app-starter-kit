@@ -8,6 +8,8 @@
             </p>
         </div>
 
+        <DemoWallet />
+
         <ProjectInfo />
 
         <StyleInfo />
@@ -35,6 +37,7 @@ import '@nimiq/vue-components/dist/NimiqVueComponents.css';
 import { Component, Vue } from 'vue-property-decorator';
 import BrowserWarningInfo from './components/BrowserWarningInfo.vue';
 import CoreInfo from './components/CoreInfo.vue';
+import DemoWallet from './components/DemoWallet.vue';
 import HubInfo from './components/HubInfo.vue';
 import NetworkInfo from './components/NetworkInfo.vue';
 import ProjectInfo from './components/ProjectInfo.vue';
@@ -47,6 +50,7 @@ import WhatNextInfo from './components/WhatNextInfo.vue';
     components: {
         BrowserWarningInfo,
         CoreInfo,
+        DemoWallet,
         HubInfo,
         NetworkInfo,
         ProjectInfo,
