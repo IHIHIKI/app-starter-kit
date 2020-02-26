@@ -6,7 +6,9 @@
         <PageBody class="nq-card-body">
             <p class="nq-text">
                 Nimiq provides a growing
-                <a href="https://github.com/nimiq/vue-components">collection of vue components</a>
+                <a href="https://github.com/nimiq/vue-components" rel="noopener" target="_blank">
+                    collection of vue components
+                </a>
                 ready to be used in your app.
             </p>
             <p class="nq-text">
@@ -35,8 +37,8 @@
                     <h3 class="nq-card-header nq-h3">Icons</h3>
                     <div class="nq-card-body icon-container">
                         <HexagonIcon />
-                        <CheckmarkIcon />
                         <InfoCircleIcon />
+                        <CheckmarkIcon />
                         <LoginIcon />
                     </div>
                 </div>
@@ -44,9 +46,16 @@
         </Carousel>
         <PageBody>
             <p class="nq-text">
-                Note that some of the vue components require the nimiq style.
-                If you do not want to use the Nimiq vue component library in your project, you can remove it by
-                reverting the <em>Setup @nimiq/vue-components</em> commit.
+                Note that some of the vue components require the nimiq styling framework.
+            </p>
+            <p class="nq-text">
+                If you only need a subset of the provided components in your project you can optimize for a smaller
+                bundle size as described in the
+                <a href="https://github.com/nimiq/vue-components#advanced-setup" rel="noopener" target="_blank">
+                    vue components documentation
+                </a>.
+                If you do not want to use the Nimiq vue component library at all, you can remove it by reverting the
+                <em>Setup @nimiq/vue-components</em> commit.
             </p>
             <p class="nq-text">
                 One typical component in Nimiq Apps are Identicons that are a visual representation for an addresses:
